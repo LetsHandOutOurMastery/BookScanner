@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Book \n Scanner</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="fetch">Fetch</string>
+    <string name="export">Export</string>
+    <string name="share_xls_file">Share XLS File</string>
+    <string name="export_db_to_xls">Export DB to XLS</string>
+    <string name="history">History</string>
+    <string name="setting">Setting</string>
+    <string name="enter_price_sell">Selling Price (AED)</string>
+    <string name="enter_book_name">Enter Book Name</string>
+    <string name="enter_publisher_name">Enter Publisher Name</string>
+    <string name="enter_price_euro">Enter Price (€)</string>
+    <string name="enter_price_aed">Enter Price (AED)</string>
+    <string name="enter_received_date">Received Date</string>
+    <string name="digits_only">0123456789</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="scan_delay_time_milliseconds">Scan Delay Time (milliseconds)</string>
+    <string name="enable_price_input">Enable Price Input</string>
+    <string name="please_enter_valid_delay_time">Please enter valid delay time.</string>
+    <string name="settings_saved">Settings saved!</string>
+    <string name="skip_price">Skip Price</string>
+    <string name="cancel_scan">Cancel Scan</string>
+    <string name="start_mobile_scan">Scan a Book</string>
+    <string name="price">Price</string>
+    <string name="currency">Currency</string>
+    <string name="isbn">ISBN</string>
+    <string name="clear_data">Clear Data</string>
+</resources>

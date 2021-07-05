@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/WidthMatchHeightWrap"
+    android:layout_margin="@dimen/activity_margin">
+
+    <LinearLayout
+        style="@style/WidthMatchHeightWrapVertical"
+        android:layout_margin="@dimen/activity_margin">
+
+        <RelativeLayout style="@style/WidthMatchHeightWrapHorizontal">
+
+            <TextView
+                android:id="@+id/isbnTextView"
+                style="@style/WidthWrapHeightWrap"
+                android:layout_alignParentLeft="true"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:text="Testing" />
+
+            <TextView
+                android:id="@+id/dateTextView"
+                style="@style/WidthWrapHeightWrap"
+                android:layout_alignParentRight="true"
+                android:gravity="left"
+                android:textSize="13sp"
+                tools:text="Testing" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/bookNameTextView"
+            style="@style/WidthWrapHeightWrap"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Price: Rs. 120" />
+
+        <TextView
+            android:id="@+id/bookPublisherTextView"
+            style="@style/WidthWrapHeightWrap"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:text="Price: Rs. 120" />
+
+        <RelativeLayout style="@style/WidthMatchHeightWrapHorizontal">
+
+            <TextView
+                android:id="@+id/europriceTextView"
+                style="@style/WidthWrapHeightWrap"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:text="Price: Rs. 120" />
+            <TextView
+                android:id="@+id/aedpriceTextView"
+                style="@style/WidthWrapHeightWrap"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:text="Price: Rs. 120" />
+            <TextView
+                android:id="@+id/sellingpriceTextView"
+                style="@style/WidthWrapHeightWrap"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:text="Price: Rs. 120" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/WidthMatchHeightWrapHorizontal">
+            <ImageView
+                android:id="@+id/barcodeImageView"
+                style="@style/WidthWrapHeightWrap"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginTop="5dp"
+                tools:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="200dp"
+                android:id="@+id/bookCoverImageView"
+                style="@style/WidthWrapHeightWrap"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                tools:src="@mipmap/ic_launcher" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

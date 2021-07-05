@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WidthMatchHeightMatchVertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_margin"
+    android:padding="@dimen/activity_margin">
+
+    <Button
+        android:id="@+id/choose_camera"
+        style="@style/WidthMatchHeightWrap"
+        android:text="Choose from Camera"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/choose_gallery"
+        style="@style/WidthMatchHeightWrap"
+        android:text="Choose from gallery"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
